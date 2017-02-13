@@ -4,15 +4,19 @@
   "description": "Request Header Parser Microservice project fcc",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "node index.js"
   },
   "repository": {
     "type": "git",
     "url": "https://github.com/gtalin/requestHeader.git"
   },
-  "author": "",
+  "author": "AJ",
   "license": "BSD-2-Clause",
   "bugs": {
     "url": "https://github.com/gtalin/requestHeader/issues"
+  },
+  "dependencies": {
+    "express": "~4.14.0",
+    "nodemon": "~1.11.0"
   }
 }
